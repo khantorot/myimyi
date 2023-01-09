@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="./content/icons/coffee_bean.svg">
+	<title>мыймый</title>
+	<link rel="stylesheet" href="./assets/css/base.css">
+	<link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="cup">
+			<div class="handle"></div>
+		</div>
+	</div>
+	<div class="grain"></div>
+	<div id="canvas-container"></div>
+	<main>
+		<nav>
+			<div class="logo">
+				<a href="index.html">
+					<img src="./content/icons/logo.png" alt="logo">
+				</a>
+			</div>
+			<div class="mini_menu">
+				<a href="#header_anchor">главная</a>
+				<a href="#coffee_anchor">кофе</a>
+				<a href="#about_anchor">о нас</a>
+				<a href="#contact_anchor" class="link link--carme">
+					<span>контакт</span>
+					<svg class="link__graphic link__graphic--stroke link__graphic--scribble" viewBox="0 0 99 9">
+						<path
+							d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+							pathLength="1" />
+					</svg>
+				</a>
+			</div>
+			<div class="menu_btn"><span></span></div>
+			<div class="cart_btn"></div>
+			<div class="nav_bar">
+				<div class="menu">
+					<ul>
+						<li><a href="#header_anchor">Главная</a></li>
+						<li><a href="#coffee_anchor">Кофе</a></li>
+						<li><a href="#about_anchor">О нас</a></li>
+						<li><a href="#contact_anchor">Контакты</a></li>
+					</ul>
+					<div class="img_bg"></div>
+				</div>
+				<div class="cart">
+					<div class="cart_wrap">
+						<div class="cart_items"></div>
+						<div class="show_modal_btn">Продолжить</div>
+					</div>
+					<div class="img_bg"></div>
+				</div>
+				<div class="form">
+					<div class="form_wrap">
+						<form>
+							<input type="text" placeholder="Имя" class="form_input" name="name">
+
+							<h4>Что вам добавить? (бесплатно)</h4>
+							<label><input class="cb pristine" type="checkbox"> <span>сахар</span></label>
+							<label><input class="cb pristine" type="checkbox"> <span>сливки</span></label>
+							<label><input class="cb pristine" type="checkbox"> <span>лимон</span></label>
+
+							<button>Заказать</button>
+							<div class="close_btn"><span></span></div>
+						</form>
+					</div>
+					<div class="img_bg"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="add_fly">
+			<img src="./content/icons/coffee_bean.svg" alt="fly">
+		</div>
+		<div class="wrapper">
+			<header>
+				<a name="#header_anchor" id="header_anchor" class="anchor_link"></a>
+				<div class="header_text">
+					<p>Насладитесь в компании пушистого <br> <span>котика</span> за чашечкой <span>кофе</span></p>
+					<h1>Мыймый-давать <br> самое лучшее</h1>
+					<a href="#coffee_anchor" class="squiggle_btn">Выпить кофейку</a>
+				</div>
+				<div class="header_bg_cup">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<div class="header_bg">
+					<img src="./content/images/corn_1.png" alt="" class="layer" data-id="1">
+					<img src="./content/images/corn_2.png" alt="" class="layer" data-id="3">
+				</div>
+			</header>
+			<section class="shop">
+				<a name="#coffee_anchor" id="coffee_anchor" class="anchor_link"></a>
+				<h2><span>Меню </span> на сегодня</h2>
+				<div class="coffee_items"></div>
+			</section>
+			<section class="about">
+				<a name="#about_anchor" id="about_anchor" class="anchor_link"></a>
+				<div class="about_img about_img_left"><img src="./content/images/about1.png" alt="about"></div>
+				<div class="about_text">
+					<h2>Все о мыймый</h2>
+					<p>Кофейня “Myi-myi” - это пушистое и мурлыкающее заведение с вкуснейщим кофе, в котором вы можете
+						окунуться в атмосферу размеренности котЭ жизни. У нас в гостях можно отдохнуть или поработать
+					</p>
+					<a href="#contact_anchor" class="squiggle_btn">помахать ей</a>
+				</div>
+				<div class="about_img"><img src="./content/images/about2.png" alt="about"></div>
+			</section>
+			<section class="follow">
+				<div class="follow_container">
+					<div class="follow_item follow_slide follow_info">
+						<h2>Подпишись на нас</h2>
+						<p>Это лучшее место для получения положительных эмоций и снятия стресса! Не верите? Приходите в
+							наше замуррчательное место и знакомьтесь с нашим младшим персоналом.</p>
+						<p>Заглядываем, подглядываем!</p>
+						<a href="https://www.instagram.com/" target="_blank" class="squiggle_btn">подписаться</a>
+					</div>
+					<div class="follow_item follow_slide">
+						<div class="img_wrap">
+							<img src="./content/images/image1.jpg" alt="slider">
+						</div>
+						<span>12.06.19</span>
+					</div>
+					<div class="follow_item follow_slide">
+						<div class="img_wrap">
+							<img src="./content/images/image2.jpg" alt="slider">
+						</div>
+						<span>12.06.19</span>
+					</div>
+					<div class="follow_item follow_slide">
+						<div class="img_wrap">
+							<img src="./content/images/image3.jpg" alt="slider">
+						</div>
+						<span>12.06.19</span>
+					</div>
+					<div class="follow_item follow_slide">
+						<div class="img_wrap">
+							<img src="./content/images/image4.jpg" alt="slider">
+						</div>
+						<span>12.06.19</span>
+					</div>
+					<div class="follow_item follow_slide">
+						<div class="img_wrap">
+							<img src="./content/images/image5.jpg" alt="slider">
+						</div>
+						<span>12.06.19</span>
+					</div>
+				</div>
+			</section>
+			<section class="slogan_fun">
+				<div class="cursor">
+					<div class="cursor_text">myi - myi</div>
+					<div class="cursor_text">myi - myi</div>
+					<div class="cursor_text">myi - myi</div>
+					<div class="cursor_text">myi - myi</div>
+					<div class="cursor_text">myi - myi</div>
+				</div>
+				<img src="./content/icons/coffee_bean.svg" alt="coffee_bean" class="coffee_plane">
+			</section>
+			<footer>
+				<a name="#contact_anchor" id="contact_anchor" class="anchor_link"></a>
+				<a href="mailto:myimyicoffee@gmail.com" class="email link link--carme">
+					<span>myimyicoffee</span>
+					<div class="face">
+						<div class="eyes">
+							<span class="eye"></span>
+							<span class="eye"></span>
+						</div>
+					</div>
+					<span>gmail.com</span>
+					<svg class="link__graphic link__graphic--stroke link__graphic--scribble" viewBox="0 0 99 9">
+						<path
+							d="M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294"
+							pathLength="1" />
+					</svg>
+				</a>
+				<div class="coffee_cup">
+					<div class="coffee_handle"></div>
+					<div class="smoke">
+						<span class="s0"></span>
+						<span class="s1"></span>
+						<span class="s2"></span>
+						<span class="s3"></span>
+						<span class="s4"></span>
+						<span class="s5"></span>
+						<span class="s6"></span>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</main>
+
+	<script src="./assets/js/gsap_min.js"></script>
+	<script src="./assets/js/scroll_trigger.js"></script>
+	<script src="./assets/js/scroll_magic.js"></script>
+	<script src="./assets/js/gsap_animation_min.js"></script>
+	<script src="./assets/js/motion_path.js"></script>
+	<script src="./assets/js/scroll_out.js"></script>
+	<script src="./assets/js/p5_min.js"></script>
+	<script src="./assets/js/data.js"></script>
+	<script src="./assets/js/index.js"></script>
+</body>
+
+</html>
